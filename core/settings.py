@@ -30,7 +30,8 @@ ALLOWED_HOSTS = [
     '192.168.0.105',
     'localhost',
     '192.168.0.105',
-    '45.170.123.151'
+    '45.170.123.151',
+    'https://linkup-api-o22l.onrender.com/'
 ]
 
 
