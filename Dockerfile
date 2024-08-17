@@ -17,6 +17,5 @@ COPY . /api/
 
 # Expor a porta 8000 (caso precise ser acessada diretamente)
 EXPOSE 8000
-ENV DJANGO_SETTINGS_MODULE=core.settings.production
 # Comando para iniciar o servidor Django
 CMD ["gunicorn", "--bind", "0.0.0.0:8000", "core.wsgi:application"]
